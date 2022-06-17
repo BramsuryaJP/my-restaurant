@@ -1,16 +1,19 @@
 <template>
-	<div class="card">
-		<img :src="ingredient.strMealThumb + '/preview'" :alt="ingredient.strMeal">
-		<h3>{{ ingredient.strMeal }}</h3>
-		<div class="stars">
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star-half-alt"></i>
-		</div>
-		<a class="btn-add-cart">add to cart</a>
-	</div>
+    <div class="card">
+        <img
+            :src="ingredient.strMealThumb + '/preview'"
+            :alt="ingredient.strMeal"
+        />
+        <h3>{{ ingredient.strMeal }}</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a class="btn-add-cart">add to cart</a>
+    </div>
 </template>
 
 <script>
