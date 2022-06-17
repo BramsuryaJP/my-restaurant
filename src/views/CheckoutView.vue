@@ -49,47 +49,46 @@ export default {
 
 	.section-checkout {
 		background-color: #fff;
+	}
 
-		.section-checkout-data{
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			margin: auto;
+	.section-checkout-data{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: auto;
 
-			.checkout-top-data {
-				text-transform: uppercase;
-				font-weight: 500;
-				font-size: 12px;
-				margin-top: 15px;
-				color: rgb(119 164 229);
-			}
-
-			.checkout-heading {
-				text-transform: uppercase;
-				font-weight: 700;
-				font-size: 48px;
-				margin-top: 40px;
-			}
-
-			.checkout-paragraph {
-				margin-top: 10px;
-				margin-bottom: 50px;
-				max-width: 23rem;
-				font-size: 16px;
-			}
+		.checkout-top-data {
+			text-transform: uppercase;
+			font-weight: 500;
+			font-size: 12px;
+			margin-top: 15px;
+			color: rgb(119 164 229);
 		}
 
-		.section-checkout-image {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+		.checkout-heading {
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 48px;
+			margin-top: 40px;
+		}
 
-			.checkout-img {
-				max-width: 90%;
-			}
+		.checkout-paragraph {
+			margin-top: 10px;
+			margin-bottom: 50px;
+			max-width: 23rem;
+			font-size: 16px;
 		}
 	}
 
+	.section-checkout-image {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.checkout-img {
+			max-width: 90%;
+		}
+	}
 
 	@media (max-width: 980px) {
 		.container {
