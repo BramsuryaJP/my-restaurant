@@ -5,7 +5,7 @@
 			<div class="search-box">
 				<form @submit.prevent="getFiltered">
 					<i class="fa fa-search"></i>
-					<input type="search" placeholder="Ex. Seafood, Beef, dessert" v-model="query">
+					<input type="search" placeholder="Ex. Seafood, Beef, Dessert" v-model="query">
 				</form>
 			</div>
 			<div class="image-container">

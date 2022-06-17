@@ -3,8 +3,7 @@
     <HeroComponent />
 
     <section class="menus" id="menus">
-      <h3 class="sub-heading">Menu Kita</h3>
-      <h1 class="heading">Menu Terbaik</h1>
+      <h1 class="heading"><span>Our</span> Menu</h1>
       <router-link to="/gallery" class="all-menus">Lihat Semua</router-link>
 
       <div class="card-container">
@@ -59,22 +58,21 @@ export default {
     margin: 0 auto;
     padding-bottom: 20px;
 
-    .sub-heading {
+    .heading{
       text-align: center;
+      font-size: 30px;
       padding-top: 20px;
-      text-transform: uppercase;
-      font-size: 20px;
-      font-weight: 500;
       color: #B8D1F9;
-    }
-
-    .heading {
-      text-align: center;
-      padding-bottom: 30px;
-      text-transform: uppercase;
-      font-size: 26px;
       font-weight: 700;
-      color: #000;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+
+      span{
+        font-size: 30px;
+        color: #666;
+        font-weight: 500;
+        text-transform: uppercase;
+      }
     }
 
     .all-menus {
