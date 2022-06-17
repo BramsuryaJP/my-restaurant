@@ -1,5 +1,5 @@
 <template>
-  <main>
+	<main>
 		<section class="section-checkout section">
 			<div class="container grid grid-two-column">
 				<div class="section-checkout-data">
@@ -20,7 +20,7 @@
 <script>
 import FooterComponent from '@/components/FooterComponent.vue'
 export default {
-	name: 'CheckoutView',
+	name:	'CheckoutView',
 	components: {
 		FooterComponent
 	}
@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.section {
+	.section {
 		padding: 88px 0;
 
 		.container {

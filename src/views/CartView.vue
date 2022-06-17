@@ -10,7 +10,10 @@
 			<tr v-for="item, index in ingredients" :key="index">
 				<td>
 					<div class="cart-info" >
-						<img :src="item.strMealThumb + '/preview'" alt="">
+						<img 
+							:src="item.strMealThumb + '/preview'" 
+							:alt="item.strMeal"
+						/>
 						<div class="info">
 							{{ item.strMeal }}
 							<br>
@@ -20,23 +23,27 @@
 						</div>
 					</div>
 				</td>
-				<td><input type="number" value="1"></td>
-				<td>Rp. 40.000</td>
+				<td>
+					<input type="number" value="1">
+				</td>
+				<td>
+					Rp. 40.000
+				</td>
 			</tr>
 		</table>
 		<div class="total-price">
 			<table>
 				<tr>
 					<td>Total Harga</td>
-					<td>Rp. 120.000</td>
+					<td>Rp. 160.000</td>
 				</tr>
 				<tr>
 					<td>Pajak</td>
-					<td>Rp. 12.000</td>
+					<td>Rp. 16.000</td>
 				</tr>
 				<tr>
 					<td>Total</td>
-					<td>Rp. 108.000</td>
+					<td>Rp. 144.000</td>
 				</tr>
 			</table>
 		</div>
@@ -101,8 +108,8 @@ export default {
 		padding-left: 25px;
 		padding-right: 25px;
 	}
-	
-  .cart-page {
+
+	.cart-page {
 		margin: 35px auto;
 
 		table {

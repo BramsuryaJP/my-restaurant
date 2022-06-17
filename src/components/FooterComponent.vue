@@ -1,12 +1,12 @@
 <template>
-  <footer>
-		<p>Copyright &copy; 2022. <span>Bramsurya Johannes Paulus</span></p>
+	<footer>
+		<p>Copyright&copy; 2022.<span>Bramsurya Johannes Paulus</span></p>
 	</footer>
 </template>
 
 <script>
 export default {
-  name: "FooterComponent"
+	name:	"FooterComponent"
 }
 </script>
 

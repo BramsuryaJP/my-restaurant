@@ -1,5 +1,5 @@
 <template>
-  <div class="gallery">
+	<div class="gallery">
 		<div class="container">
 			<h1 class="heading"><span>Food</span> Gallery</h1>
 			<div class="search-box">
@@ -10,7 +10,10 @@
 			</div>
 			<div class="image-container">
 				<div class="image" v-for="item, index in ingredients" :key="index" >
-					<img :src="item.strMealThumb + '/preview'" :alt="item.strMeal">
+					<img 
+						:src="item.strMealThumb + '/preview'" 
+						:alt="item.strMeal"
+					/>
 					<div class="content">
 						<h3>{{ item.strMeal }}</h3>
 						<p>{{ item.strCategory }}</p>
@@ -34,25 +37,25 @@
 import FooterComponent from '@/components/FooterComponent'
 import axios from 'axios'
 export default {
-  name: 'GalleryView',
-	components: {
-		FooterComponent
+	name:	'GalleryView',
+		components: {
+			FooterComponent
+		},
+		data () {
+			return {
+				query: null,
+				ingredients: []
+		}
 	},
-	data () {
-    return {
-			query: null,
-      ingredients: []
-    }
-  },
-  methods: {
-    async getMeals() {
-      const URL = "https://www.themealdb.com/api/json/v1/1/random.php?key=1"
-      var i = 0;
-      while(i < 9) {
-        this.ingredients.push((await axios.get(URL)).data.meals[0]);
-        i++;
-      }
-    },
+	methods: {
+		async getMeals() {
+			const URL = "https://www.themealdb.com/api/json/v1/1/random.php?key=1"
+			var i = 0;
+			while(i < 9) {
+				this.ingredients.push((await axios.get(URL)).data.meals[0])
+				i++
+			}
+		},
 		async getFiltered() {
 			const URL = "https://www.themealdb.com/api/json/v1/1/filter.php?c=" + this.query
 			await axios.get(URL) 
@@ -64,10 +67,10 @@ export default {
 					console.log(err)
 				})
 		}
-  },
-  mounted () {
-    this.getMeals()
-  }
+	},
+	mounted () {
+		this.getMeals()
+	}
 }
 </script>
 

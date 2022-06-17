@@ -15,9 +15,9 @@
 
 <script>
 export default {
-  name: "CardComponent",
-  props: ["ingredient"]
-}
+	name:	"CardComponent",
+	props:	["ingredient"],
+};
 </script>
 
 <style lang="scss" scoped>
@@ -25,14 +25,14 @@ export default {
 		padding: 15px;
 		background: #fff;
 		border-radius: 5px;
-		border: 1px solid rgba(0, 0, 0, .2);
-		box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);  
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
 		position: relative;
 		overflow: hidden;
 		height: 400px;
 		text-align: center;
 
-		h3{
+		h3 {
 			font-size: 16px;
 		}
 
@@ -40,8 +40,8 @@ export default {
 			padding: 5px 0;
 
 			i {
-				font-size: 16px;
-				color: #FA9746;
+			font-size: 16px;
+			color: #fa9746;
 			}
 		}
 
@@ -57,16 +57,20 @@ export default {
 			font-size: 14px;
 			text-transform: uppercase;
 			text-decoration: none;
-			color:#fff;
+			color: #fff;
 			width: 80%;
-			background: #77A4E5;
+			background: #77a4e5;
 			border-radius: 5px;
 			font-weight: 500;
 			cursor: pointer;
-			padding:13px 40px;
+			padding: 13px 40px;
 
 			&:hover {
-				background: -webkit-linear-gradient(0deg, rgb(160 193 244)0%, rgb(119 164 229)100%);
+				background: -webkit-linear-gradient(
+					0deg,
+					rgb(160 193 244) 0%,
+					rgb(119 164 229) 100%
+				);
 			}
 		}
 	}
