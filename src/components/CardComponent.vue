@@ -19,8 +19,8 @@
 <script>
 export default {
 	name:	"CardComponent",
-	props:	["ingredient"],
-};
+	props:	["ingredient"]
+}
 </script>
 
 <style lang="scss" scoped>
