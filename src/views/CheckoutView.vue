@@ -3,12 +3,13 @@
     <section class="section-checkout section">
       <div class="container grid grid-two-column">
         <div class="section-checkout-data">
+          <p class="hero-top-data">Selamat Pesanan</p>
           <h1 class="checkout-heading">SUKSES!!</h1>
           <p class="checkout-paragraph">
             Pesanan Anda Segera Diproses. Selamat Menunggu
           </p>
           <div>
-            <router-link to="/" class="checkout-btn">Kembali</router-link>
+            <router-link to="/" class="checkout-btn">Kembali ke Awal</router-link>
           </div>
         </div>
         <div class="section-checkout-image">
@@ -37,21 +38,21 @@ export default {
 <style lang="scss" scoped>
 .section {
   padding: 88px 0;
+}
 
-  .container {
-    max-width: 90%;
-    margin: 0 auto;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+    
+.grid {
+  display: grid;
+  gap: 10px;
+}
 
-    &.grid {
-      display: grid;
-      gap: 10px;
-    }
-
-    &.grid-two-column {
-      grid-template-columns: repeat(2, 1fr);
-      margin-top: 29px;
-    }
-  }
+.grid-two-column {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 29px;
 }
 
 .section-checkout {
@@ -63,6 +64,14 @@ export default {
   flex-direction: column;
   justify-content: center;
   margin: auto;
+
+  .hero-top-data {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgb(119 164 229);
+  }
 
   .checkout-heading {
     text-transform: uppercase;
@@ -138,46 +147,6 @@ export default {
   .section-checkout {
     .grid-two-column {
       grid-template-columns: 1fr;
-    }
-  }
-
-  .grid-two-column > .section-checkout-data {
-    order: 2;
-  }
-
-  .grid-two-column > .section-checkout-image {
-    order: 1;
-  }
-
-  .section-checkout-data {
-    align-items: center;
-  }
-
-  .checkout-heading {
-    text-align: center;
-  }
-  .hero-paragraph {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 16px;
-  }
-
-  .section-checkout {
-    img {
-      width: 100%;
-    }
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .container {
-    max-width: 720px;
-  }
-
-  .section-checkout {
-    .grid-two-column {
-      grid-template-columns: 1fr;
-      padding-top: 50px;
     }
   }
 
