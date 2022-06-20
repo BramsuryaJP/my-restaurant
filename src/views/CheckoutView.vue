@@ -7,6 +7,9 @@
           <p class="checkout-paragraph">
             Pesanan Anda Segera Diproses. Selamat Menunggu
           </p>
+          <div>
+            <router-link to="/" class="checkout-btn">Kembali</router-link>
+          </div>
         </div>
         <div class="section-checkout-image">
           <img
@@ -83,6 +86,30 @@ export default {
 
   .checkout-img {
     max-width: 90%;
+  }
+}
+
+.hero-btn {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(160 193 244) 0%,
+    rgb(119 164 229) 100%
+  );
+  padding: 15px 20px;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 15px;
+
+  &:hover,
+  :active {
+    box-shadow: 0 20px 20px 0 rgb(132 144 255 / 30%);
   }
 }
 
