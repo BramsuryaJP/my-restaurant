@@ -1,10 +1,10 @@
 <template>
-  <h1><span>Food</span> Cart</h1>
+  <h1><span>Keranjang</span> Makanan</h1>
   <div class="container cart-page">
     <table>
       <tr>
-        <th>Product</th>
-        <th>Quantity</th>
+        <th>Produk Makanan</th>
+        <th>Jumlah Makanan</th>
         <th>Subtotal</th>
       </tr>
       <tr v-for="(item, index) in ingredients" :key="index">
@@ -44,7 +44,7 @@
     </div>
     <div class="button">
       <router-link to="/pesanan-sukses" class="btn-checkout"
-        >proceed to checkout</router-link
+        >Lanjut Checkout</router-link
       >
     </div>
   </div>
