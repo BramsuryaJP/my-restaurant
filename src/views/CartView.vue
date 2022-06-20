@@ -1,10 +1,10 @@
 <template>
-  <h1><span>Keranjang</span> Makanan</h1>
+  <h1>Keranjang <span>Makanan</span></h1>
   <div class="container cart-page">
     <table>
       <tr>
-        <th>Produk Makanan</th>
-        <th>Jumlah Makanan</th>
+        <th>Produk</th>
+        <th>Jumlah</th>
         <th>Subtotal</th>
       </tr>
       <tr v-for="(item, index) in ingredients" :key="index">
