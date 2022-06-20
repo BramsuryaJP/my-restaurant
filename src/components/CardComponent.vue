@@ -12,7 +12,7 @@
       <i class="fas fa-star"></i>
       <i class="fas fa-star-half-alt"></i>
     </div>
-    <a class="btn-add-cart">add to cart</a>
+    <a class="btn-add-cart">Tambah ke Keranjang</a>
   </div>
 </template>
 
