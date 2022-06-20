@@ -61,14 +61,6 @@ export default {
   justify-content: center;
   margin: auto;
 
-  .checkout-top-data {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 12px;
-    margin-top: 15px;
-    color: rgb(119 164 229);
-  }
-
   .checkout-heading {
     text-transform: uppercase;
     font-weight: 700;
