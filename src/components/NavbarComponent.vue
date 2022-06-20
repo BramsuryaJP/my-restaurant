@@ -152,7 +152,7 @@ header {
       border-bottom: 1px solid transparent;
       transition: 0.3s ease all;
 
-      &:active {
+      &:hover {
         color: #fa9746;
         border-color: #fa9746;
       }
