@@ -103,7 +103,7 @@ export default {
     }
 
     .search-box {
-      width: 440px;
+      width: 400px;
       height: 40px;
       background-color: white;
       border-radius: 30px;
@@ -112,7 +112,7 @@ export default {
       margin: auto;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      padding: 5px;
       margin-bottom: 20px;
 
       form {
@@ -123,7 +123,6 @@ export default {
 
         > input {
           flex: 1;
-          height: 40px;
           border: none;
           width: 360px;
           outline: none;
