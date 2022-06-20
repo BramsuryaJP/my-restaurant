@@ -2,7 +2,7 @@
   <div class="home">
     <HeroComponent />
     <section class="menus" id="menus">
-      <h1 class="heading"><span>Our</span> Menu</h1>
+      <h1 class="heading"><span>Menu</span> Kami</h1>
       <router-link to="/gallery" class="all-menus">Lihat Semua</router-link>
       <div class="card-container">
         <CardComponent
