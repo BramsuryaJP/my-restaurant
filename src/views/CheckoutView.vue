@@ -77,7 +77,7 @@ export default {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 48px;
-    margin-top: 40px;
+    margin-top: 2px;
   }
 
   .checkout-paragraph {
