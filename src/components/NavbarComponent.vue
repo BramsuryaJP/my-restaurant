@@ -8,14 +8,14 @@
         </li>
         <li>
           <router-link class="link" :to="{ name: 'Gallery' }"
-            >Gallery</router-link
+            >Galeri</router-link
           >
         </li>
       </ul>
       <ul v-show="!mobile" class="navigation-right">
         <li>
           <router-link class="link cart" :to="{ name: 'Cart' }"
-            >Cart<i class="far fa-shopping-bag"></i
+            >Keranjang<i class="far fa-shopping-bag"></i
             ><span>(4)</span></router-link
           >
         </li>
@@ -35,12 +35,12 @@
           </li>
           <li>
             <router-link class="link" :to="{ name: 'Gallery' }"
-              >Gallery</router-link
+              >Galeri</router-link
             >
           </li>
           <li>
             <router-link class="link" :to="{ name: 'Cart' }"
-              >Cart<i class="far fa-shopping-bag"></i
+              >Keranjang<i class="far fa-shopping-bag"></i
               ><span>(4)</span></router-link
             >
           </li>
