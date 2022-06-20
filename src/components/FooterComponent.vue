@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>Copyright&copy; 2022.<span>Bramsurya Johannes Paulus</span></p>
+    <p>Copyright &copy;2022.<span>Bramsurya Johannes Paulus</span></p>
   </footer>
 </template>
 
