@@ -25,7 +25,7 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star-half-alt"></i>
             </div>
-            <a class="content-btn">add to cart</a>
+            <a class="content-btn">Tambah ke Keranjang</a>
           </div>
         </div>
       </div>
