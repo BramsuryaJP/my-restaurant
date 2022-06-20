@@ -135,7 +135,7 @@ export default {
     .image-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
+      gap: 10px;
       margin-bottom: 20px;
 
       .image {
