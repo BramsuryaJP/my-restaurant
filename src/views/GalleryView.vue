@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div class="container">
-      <h1 class="heading"><span>Food</span> Gallery</h1>
+      <h1 class="heading"><span>Galeri</span> Makanan</h1>
       <div class="search-box">
         <form @submit.prevent="getFiltered">
           <i class="fa fa-search"></i>
