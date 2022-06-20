@@ -84,8 +84,6 @@ export default {
   .container {
     width: 82%;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
 
     .heading {
       text-align: center;
@@ -112,6 +110,7 @@ export default {
       border: 1px solid #b8d1f9;
       display: flex;
       margin: auto;
+      justify-content: center;
       align-items: center;
       padding: 20px;
       margin-bottom: 20px;
