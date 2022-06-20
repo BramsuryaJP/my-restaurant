@@ -140,7 +140,7 @@ export default {
 
       .image {
         height: 15rem;
-        flex: 1 1 380px;
+        flex: 1 1 350px;
         border: 1rem solid #fff;
         box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
         border-radius: 5px;
