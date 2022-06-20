@@ -89,7 +89,7 @@ export default {
   }
 }
 
-.hero-btn {
+.checkout-btn {
   background: -webkit-linear-gradient(
     0deg,
     rgb(160 193 244) 0%,
